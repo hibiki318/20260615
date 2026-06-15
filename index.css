@@ -137,6 +137,11 @@ img {
         background-color: #736e62;
         padding-top: 30px;
         padding-bottom: 50px;
+        display: none;
+    }
+
+    .header-site-menu.is-show {
+        display: block;
     }
 
     .main {
@@ -158,7 +163,10 @@ img {
         background-image: url(../images/common/icon-menu.png);
         background-position: center;
         background-repeat: no-repeat;
-        
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
     }
     
 }
